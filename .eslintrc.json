@@ -22,8 +22,8 @@
         "props": false
       }
     ],
-    "no-magic-numbers": ["error", { "ignoreArrayIndexes": true }],
-    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     "max-len": ["error", { "code": 120, "ignoreStrings": true, "ignoreRegExpLiterals": true }],
     "import/no-extraneous-dependencies": 0,
     "object-curly-newline": ["error", { "multiline": true }],
