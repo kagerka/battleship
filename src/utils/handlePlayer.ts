@@ -1,6 +1,6 @@
 import { WebSocket } from 'ws';
 import { IPlayerRegIn } from '../common/interfaces';
-import players from './database';
+import { players } from './database';
 
 const handlePlayer = async (ws: WebSocket, message: IPlayerRegIn): Promise<any> => {
   let { data } = message;
